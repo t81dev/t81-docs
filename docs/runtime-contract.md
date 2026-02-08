@@ -6,13 +6,13 @@ This page tracks the runtime contract used by the migrated ecosystem boundary.
 
 - Repository: [`t81-vm`](https://github.com/t81dev/t81-vm)
 - Contract artifact: `docs/contracts/vm-compatibility.json`
-- Latest tagged contract baseline: `runtime-contract-v0.1`
-- `runtime-contract-v0.2` status: prepared, not tagged
+- Active tagged contract baseline: `runtime-contract-v0.2`
+- `runtime-contract-v0.2` status: tagged and active
 
 ## Current Baseline Snapshot
 
 - VM contract version: `2026-02-08-v2`
-- VM contract commit pin (`t81-vm/main`): `30306b3`
+- VM contract commit pin (`t81-vm/main`): `30306b32eea8b7acde1be354ed10d24881989225`
 - Supported opcode count in contract: `81`
 - Parity status: full opcode parity and VM conformance parity with `t81-foundation` (`81/81` opcodes, `13/13` `vm*_test.cpp` classes).
 
