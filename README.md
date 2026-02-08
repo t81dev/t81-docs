@@ -9,6 +9,8 @@ Central documentation hub for the `t81dev` ecosystem.
 - `docs/repository-inventory.md`: complete inventory of all public repositories under `t81dev`.
 - `docs/repositories.md`: index of generated per-repository documentation pages.
 - `docs/runtime-contract.md`: runtime compatibility boundary for `t81-vm` consumers.
+- `docs/formal-vs-interpretive-boundary.md`: source-of-truth rules for formal vs interpretive docs.
+- `docs/terminology-map.md`: canonical term mapping across the ecosystem.
 - `docs/runtime-sync-status.md`: weekly runtime compatibility/check health snapshot mirrored from `t81-roadmap`.
 - `docs/contributor-journey.md`: path from first issue to advanced runtime migration work.
 - `docs/migration-from-binary.md`: migration path for binary-first systems.

@@ -8,6 +8,8 @@ This page is the top-level map for `t81-docs` content and contributor routing.
 - Repository inventory: `docs/repository-inventory.md`
 - Per-repo pages index: `docs/repositories.md`
 - Runtime contract boundary: `docs/runtime-contract.md`
+- Formal vs interpretive boundary: `docs/formal-vs-interpretive-boundary.md`
+- Canonical terminology map: `docs/terminology-map.md`
 - Runtime sync health snapshot: `docs/runtime-sync-status.md`
 
 ## 2. Operational Docs

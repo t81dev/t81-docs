@@ -46,6 +46,8 @@ This page groups the `t81dev` repositories into working domains so contributors 
 
 - [`t81-docs`](https://github.com/t81dev/t81-docs): central docs hub.
 - Unified navigation skeleton: [`navigation.md`](navigation.md).
+- Formal vs interpretive boundary: [`formal-vs-interpretive-boundary.md`](formal-vs-interpretive-boundary.md).
+- Canonical terminology map: [`terminology-map.md`](terminology-map.md).
 - Contributor journey map: [`contributor-journey.md`](contributor-journey.md).
 - Runtime boundary reference: [`docs/runtime-contract.md`](runtime-contract.md).
 
