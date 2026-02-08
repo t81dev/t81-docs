@@ -85,6 +85,7 @@ def main() -> None:
         f"VM contract version: `{contract_version}`",
         expected_pin_snippet,
         "Execution-mode parity evidence artifact: `build/mode-parity/parity-evidence.json`",
+        "Evidence retention/publication policy: `t81-vm/docs/parity-evidence-policy.md`",
         "`t81-lang` compatibility gate",
         "`t81-python` bridge and compatibility docs",
     ]
