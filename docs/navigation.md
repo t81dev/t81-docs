@@ -18,6 +18,7 @@ This page is the top-level map for `t81-docs` content and contributor routing.
 ## 3. Contributor Entry Paths
 
 - Contributor journey map: `docs/contributor-journey.md`
+- Binary-first migration guide: `docs/migration-from-binary.md`
 - Research path starts with:
   - `docs/ecosystem-overview.md` (Specifications And Research)
 - Runtime path starts with:

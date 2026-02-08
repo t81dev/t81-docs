@@ -11,6 +11,7 @@ Central documentation hub for the `t81dev` ecosystem.
 - `docs/runtime-contract.md`: runtime compatibility boundary for `t81-vm` consumers.
 - `docs/runtime-sync-status.md`: weekly runtime compatibility/check health snapshot mirrored from `t81-roadmap`.
 - `docs/contributor-journey.md`: path from first issue to advanced runtime migration work.
+- `docs/migration-from-binary.md`: migration path for binary-first systems.
 - `docs/repos/`: one generated page per repository.
 - `docs/repos.json`: machine-readable repository metadata for automation.
 - `docs/maintenance.md`: sync and maintenance workflow.
