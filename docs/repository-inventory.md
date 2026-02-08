@@ -9,7 +9,7 @@ Snapshot date: `2026-02-08`.
 | Repository | Detail Page | Primary Language | Notes |
 | --- | --- | --- | --- |
 | [`ANGELA`](https://github.com/t81dev/ANGELA) | [`ANGELA`](repos/ANGELA.md) | Python | Description not set. |
-| [`duotronic-computing`](https://github.com/t81dev/duotronic-computing) | [`duotronic-computing`](repos/duotronic-computing.md) | C++ | Interpretive and contextual material exploring duotronic computing and the Ternary Logic Unit (TLU). This repository is non-normative and depends on the formal specification at t81dev/duotroic-whitepaper. |
+| [`duotronic-computing`](https://github.com/t81dev/duotronic-computing) | [`duotronic-computing`](repos/duotronic-computing.md) | C++ | Interpretive and contextual material exploring duotronic computing and the Ternary Logic Unit (TLU). This repository is non-normative and depends on the formal specification at t81dev/duotronic-whitepaper. |
 | [`duotronic-thesis`](https://github.com/t81dev/duotronic-thesis) | [`duotronic-thesis`](repos/duotronic-thesis.md) | - | Description not set. |
 | [`duotronic-whitepaper`](https://github.com/t81dev/duotronic-whitepaper) | [`duotronic-whitepaper`](repos/duotronic-whitepaper.md) | - | A formal proposal and reference semantics for a ternary logic coprocessor that augments binary systems. |
 | [`llama.cpp`](https://github.com/t81dev/llama.cpp) | [`llama.cpp`](repos/llama.cpp.md) | C++ | LLM inference in C/C++ |

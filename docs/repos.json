@@ -23,7 +23,7 @@
     "name": "duotronic-computing",
     "full_name": "t81dev/duotronic-computing",
     "html_url": "https://github.com/t81dev/duotronic-computing",
-    "description": "Interpretive and contextual material exploring duotronic computing and the Ternary Logic Unit (TLU). This repository is non-normative and depends on the formal specification at t81dev/duotroic-whitepaper.",
+    "description": "Interpretive and contextual material exploring duotronic computing and the Ternary Logic Unit (TLU). This repository is non-normative and depends on the formal specification at t81dev/duotronic-whitepaper.",
     "language": "C++",
     "fork": false,
     "archived": false,
