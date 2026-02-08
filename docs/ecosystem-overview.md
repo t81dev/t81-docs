@@ -45,6 +45,7 @@ This page groups the `t81dev` repositories into working domains so contributors 
 ## Docs And Coordination
 
 - [`t81-docs`](https://github.com/t81dev/t81-docs): central docs hub.
+- Runtime boundary reference: [`docs/runtime-contract.md`](runtime-contract.md).
 
 ## Suggested Near-Term Expansion In `t81-docs`
 

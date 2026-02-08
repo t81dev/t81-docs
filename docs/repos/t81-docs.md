@@ -2,11 +2,11 @@
 
 - Repository: [`t81-docs`](https://github.com/t81dev/t81-docs)
 - Status: `active`
-- Primary language: `-`
+- Primary language: `Shell`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T13:52:46Z`
+- Last push (UTC): `2026-02-08T17:00:06Z`
 - Created (UTC): `2026-02-08T13:52:45Z`
-- Last updated (UTC): `2026-02-08T13:52:49Z`
+- Last updated (UTC): `2026-02-08T14:36:11Z`
 
 ## Summary
 
@@ -16,7 +16,7 @@ Central hub with architecture overviews, installation guides, API references, vi
 
 - Stars: `0`
 - Forks: `0`
-- Open issues: `0`
+- Open issues: `1`
 - Topics: -
 
 ## Known Dependencies

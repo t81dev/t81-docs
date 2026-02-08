@@ -2,11 +2,11 @@
 
 - Repository: [`t81-benchmarks`](https://github.com/t81dev/t81-benchmarks)
 - Status: `active`
-- Primary language: `-`
+- Primary language: `Shell`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T13:57:15Z`
+- Last push (UTC): `2026-02-08T15:44:19Z`
 - Created (UTC): `2026-02-08T13:57:14Z`
-- Last updated (UTC): `2026-02-08T13:57:18Z`
+- Last updated (UTC): `2026-02-08T15:44:23Z`
 
 ## Summary
 

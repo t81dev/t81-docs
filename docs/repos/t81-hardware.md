@@ -2,11 +2,11 @@
 
 - Repository: [`t81-hardware`](https://github.com/t81dev/t81-hardware)
 - Status: `active`
-- Primary language: `-`
+- Primary language: `SystemVerilog`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T13:59:19Z`
+- Last push (UTC): `2026-02-08T14:50:12Z`
 - Created (UTC): `2026-02-08T13:59:19Z`
-- Last updated (UTC): `2026-02-08T13:59:23Z`
+- Last updated (UTC): `2026-02-08T14:50:16Z`
 
 ## Summary
 
