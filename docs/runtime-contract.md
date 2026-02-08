@@ -13,7 +13,7 @@ This page tracks the runtime contract used by the migrated ecosystem boundary.
 ## Current Baseline Snapshot
 
 - VM contract version: `2026-02-08-v2`
-- VM contract commit pin (`t81-vm/main`): `30306b32eea8b7acde1be354ed10d24881989225`
+- VM contract commit pin (`t81-vm/main`): `578864456f409bb54c195319663f2b7351a830f9`
 - Supported opcode count in contract: `81`
 - Parity status: full opcode parity and VM conformance parity with `t81-foundation` (`81/81` opcodes, `13/13` `vm*_test.cpp` classes).
 

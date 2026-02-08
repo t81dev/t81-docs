@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import os
+import subprocess
 from pathlib import Path
 
 
@@ -36,16 +37,47 @@ def main() -> None:
     if not host_abi_version:
         raise SystemExit("host_abi.version missing in VM contract")
 
+    contract_version = str(contract.get("contract_version", "")).strip()
+    if not contract_version:
+        raise SystemExit("contract_version missing in VM contract")
+
+    vm_head = (
+        subprocess.check_output(
+            ["git", "-C", str(vm_dir), "rev-parse", "HEAD"], text=True
+        )
+        .strip()
+    )
+    active_runtime_tag = (
+        subprocess.check_output(
+            [
+                "git",
+                "-C",
+                str(vm_dir),
+                "tag",
+                "--list",
+                "runtime-contract-v*",
+                "--sort=version:refname",
+            ],
+            text=True,
+        )
+        .strip()
+        .splitlines()
+    )
+    latest_tag = active_runtime_tag[-1] if active_runtime_tag else ""
+
     expected_tag = derive_contract_tag(host_abi_version)
     required_snippets = [
         "Contract artifact: `docs/contracts/vm-compatibility.json`",
         "Repository: [`t81-vm`](https://github.com/t81dev/t81-vm)",
+        f"Active tagged contract baseline: `{latest_tag}`" if latest_tag else "",
         expected_tag,
+        f"VM contract version: `{contract_version}`",
+        f"VM contract commit pin (`t81-vm/main`): `{vm_head}`",
         "`t81-lang` compatibility gate",
         "`t81-python` bridge and compatibility docs",
     ]
 
-    missing = [snippet for snippet in required_snippets if snippet not in runtime_page]
+    missing = [snippet for snippet in required_snippets if snippet and snippet not in runtime_page]
     if missing:
         raise SystemExit(f"docs/runtime-contract.md missing expected entries: {missing}")
 
