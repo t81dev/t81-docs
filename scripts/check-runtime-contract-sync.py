@@ -84,6 +84,7 @@ def main() -> None:
         expected_tag,
         f"VM contract version: `{contract_version}`",
         expected_pin_snippet,
+        "Execution-mode parity evidence artifact: `build/mode-parity/parity-evidence.json`",
         "`t81-lang` compatibility gate",
         "`t81-python` bridge and compatibility docs",
     ]

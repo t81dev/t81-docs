@@ -41,6 +41,10 @@ check_github_link() {
       echo "Warning: transient GitHub response in ${source_file}: ${url} (HTTP ${code:-n/a})"
       return 0
     fi
+    if [[ "$code" == "000" ]]; then
+      echo "Warning: transient GitHub response in ${source_file}: ${url} (HTTP ${code})"
+      return 0
+    fi
     if [[ "$code" -ge 500 && "$code" -lt 600 ]]; then
       echo "Warning: transient GitHub response in ${source_file}: ${url} (HTTP ${code})"
       return 0
