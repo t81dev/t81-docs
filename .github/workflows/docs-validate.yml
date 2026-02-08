@@ -34,3 +34,18 @@ jobs:
         run: python3 scripts/check-runtime-contract-sync.py
         env:
           T81_VM_DIR: ${{ github.workspace }}/t81-vm
+
+      - name: Validate runtime contract marker
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          repo = Path("contracts/runtime-contract.json")
+          vm = Path("t81-vm/docs/contracts/vm-compatibility.json")
+          repo_contract = json.loads(repo.read_text(encoding="utf-8"))
+          vm_contract = json.loads(vm.read_text(encoding="utf-8"))
+          if repo_contract.get("contract_version") != vm_contract.get("contract_version"):
+              raise SystemExit("contract_version mismatch between t81-docs and t81-vm")
+          print("runtime contract marker: ok")
+          PY
