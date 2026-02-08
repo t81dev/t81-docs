@@ -1,0 +1,41 @@
+name: Runtime Sync Status
+
+on:
+  schedule:
+    - cron: "25 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout t81-docs
+        uses: actions/checkout@v4
+        with:
+          path: t81-docs
+
+      - name: Checkout t81-roadmap
+        uses: actions/checkout@v4
+        with:
+          repository: t81dev/t81-roadmap
+          path: t81-roadmap
+          ref: main
+
+      - name: Sync runtime status page
+        run: |
+          cp t81-roadmap/RUNTIME_SYNC_REPORT.md t81-docs/docs/runtime-sync-status.md
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          path: t81-docs
+          branch: chore/weekly-runtime-sync-status
+          commit-message: "chore(docs): weekly runtime sync status update"
+          title: "chore(docs): weekly runtime sync status update"
+          body: |
+            Automated sync of runtime migration/compatibility status from `t81-roadmap/RUNTIME_SYNC_REPORT.md`.
+          delete-branch: true

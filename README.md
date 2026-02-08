@@ -8,6 +8,7 @@ Central documentation hub for the `t81dev` ecosystem.
 - `docs/repository-inventory.md`: complete inventory of all public repositories under `t81dev`.
 - `docs/repositories.md`: index of generated per-repository documentation pages.
 - `docs/runtime-contract.md`: runtime compatibility boundary for `t81-vm` consumers.
+- `docs/runtime-sync-status.md`: weekly runtime compatibility/check health snapshot mirrored from `t81-roadmap`.
 - `docs/repos/`: one generated page per repository.
 - `docs/repos.json`: machine-readable repository metadata for automation.
 - `docs/maintenance.md`: sync and maintenance workflow.
@@ -54,3 +55,4 @@ Automation:
 
 - `.github/workflows/docs-validate.yml`
 - `.github/workflows/docs-sync.yml`
+- `.github/workflows/runtime-sync-status.yml`
