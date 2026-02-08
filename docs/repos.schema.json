@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/t81dev/t81-docs/docs/repos.schema.json",
+  "title": "t81 Repository Metadata",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name",
+      "full_name",
+      "html_url",
+      "description",
+      "language",
+      "fork",
+      "archived",
+      "default_branch",
+      "homepage",
+      "topics",
+      "stargazers_count",
+      "watchers_count",
+      "forks_count",
+      "open_issues_count",
+      "size",
+      "created_at",
+      "updated_at",
+      "pushed_at"
+    ],
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "full_name": {
+        "type": "string",
+        "pattern": "^[^/]+/[^/]+$"
+      },
+      "html_url": {
+        "type": "string",
+        "pattern": "^https://github\\.com/[^/]+/[^/]+$"
+      },
+      "description": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "language": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "fork": {
+        "type": "boolean"
+      },
+      "archived": {
+        "type": "boolean"
+      },
+      "default_branch": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "homepage": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "topics": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "stargazers_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "watchers_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "forks_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "open_issues_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "size": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "created_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "updated_at": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "pushed_at": {
+        "type": "string",
+        "format": "date-time"
+      }
+    }
+  }
+}

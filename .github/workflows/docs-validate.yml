@@ -1,0 +1,23 @@
+name: Docs Validate
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ensure scripts executable
+        run: chmod +x scripts/*.sh
+
+      - name: Validate repo metadata schema
+        run: ./scripts/validate-repo-metadata.sh docs/repos.json docs/repos.schema.json
+
+      - name: Validate markdown links
+        run: ./scripts/check-doc-links.sh .
