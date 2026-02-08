@@ -37,6 +37,10 @@ check_github_link() {
   if [[ "$url" =~ ^https://github\.com/ ]]; then
     local code
     code="$(curl -o /dev/null -L -s --retry 3 --retry-all-errors --max-time 20 -w '%{http_code}' "$url" || true)"
+    if [[ ! "$code" =~ ^[0-9]{3}$ ]]; then
+      echo "Warning: transient GitHub response in ${source_file}: ${url} (HTTP ${code:-n/a})"
+      return 0
+    fi
     if [[ "$code" -ge 500 && "$code" -lt 600 ]]; then
       echo "Warning: transient GitHub response in ${source_file}: ${url} (HTTP ${code})"
       return 0
