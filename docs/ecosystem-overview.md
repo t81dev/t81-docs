@@ -5,6 +5,8 @@ This page groups the `t81dev` repositories into working domains so contributors 
 ## Core Platform
 
 - [`t81-foundation`](https://github.com/t81dev/t81-foundation): T81 ecosystem core stack and reference implementation.
+- [`t81-vm`](https://github.com/t81dev/t81-vm): deterministic HanoiVM runtime, trap semantics, and host ABI.
+- [`t81-lang`](https://github.com/t81dev/t81-lang): language frontend and compiler ownership boundary.
 - [`t81lib`](https://github.com/t81dev/t81lib): balanced-ternary quantization/arithmetic core.
 - [`t81-python`](https://github.com/t81dev/t81-python): Python package layer and integrations.
 - [`t81-examples`](https://github.com/t81dev/t81-examples): curated demos and usage examples.
@@ -50,3 +52,4 @@ This page groups the `t81dev` repositories into working domains so contributors 
 2. Add cross-repo dependency diagrams and API boundary notes.
 3. Add onboarding tracks for `research`, `core runtime`, `hardware`, and `crypto`.
 4. Add status badges and release links per repository.
+5. Add a cross-repo contract page tracking `t81-vm/docs/contracts/vm-compatibility.json`.
