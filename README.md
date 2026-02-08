@@ -4,11 +4,13 @@ Central documentation hub for the `t81dev` ecosystem.
 
 ## Start Here
 
+- `docs/navigation.md`: unified top-level navigation for docs and contributor routing.
 - `docs/ecosystem-overview.md`: repo map grouped by function and dependency flow.
 - `docs/repository-inventory.md`: complete inventory of all public repositories under `t81dev`.
 - `docs/repositories.md`: index of generated per-repository documentation pages.
 - `docs/runtime-contract.md`: runtime compatibility boundary for `t81-vm` consumers.
 - `docs/runtime-sync-status.md`: weekly runtime compatibility/check health snapshot mirrored from `t81-roadmap`.
+- `docs/contributor-journey.md`: path from first issue to advanced runtime migration work.
 - `docs/repos/`: one generated page per repository.
 - `docs/repos.json`: machine-readable repository metadata for automation.
 - `docs/maintenance.md`: sync and maintenance workflow.

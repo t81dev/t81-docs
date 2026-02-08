@@ -45,6 +45,8 @@ This page groups the `t81dev` repositories into working domains so contributors 
 ## Docs And Coordination
 
 - [`t81-docs`](https://github.com/t81dev/t81-docs): central docs hub.
+- Unified navigation skeleton: [`navigation.md`](navigation.md).
+- Contributor journey map: [`contributor-journey.md`](contributor-journey.md).
 - Runtime boundary reference: [`docs/runtime-contract.md`](runtime-contract.md).
 
 ## Migration State Note
