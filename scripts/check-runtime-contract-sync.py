@@ -64,6 +64,14 @@ def main() -> None:
         .splitlines()
     )
     latest_tag = active_runtime_tag[-1] if active_runtime_tag else ""
+    baseline_commit = vm_head
+    if latest_tag:
+        baseline_commit = (
+            subprocess.check_output(
+                ["git", "-C", str(vm_dir), "rev-parse", f"{latest_tag}^{{}}"], text=True
+            )
+            .strip()
+        )
 
     expected_tag = derive_contract_tag(host_abi_version)
     required_snippets = [
@@ -72,7 +80,7 @@ def main() -> None:
         f"Active tagged contract baseline: `{latest_tag}`" if latest_tag else "",
         expected_tag,
         f"VM contract version: `{contract_version}`",
-        f"VM contract commit pin (`t81-vm/main`): `{vm_head}`",
+        f"VM contract commit pin (`t81-vm/main`): `{baseline_commit}`",
         "`t81-lang` compatibility gate",
         "`t81-python` bridge and compatibility docs",
     ]
