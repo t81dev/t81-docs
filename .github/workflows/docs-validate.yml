@@ -19,6 +19,7 @@ jobs:
           repository: t81dev/t81-vm
           path: t81-vm
           ref: main
+          fetch-depth: 0
 
       - name: Ensure scripts executable
         run: chmod +x scripts/*.sh

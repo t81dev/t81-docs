@@ -72,6 +72,9 @@ def main() -> None:
             )
             .strip()
         )
+    expected_pin_snippet = ""
+    if latest_tag:
+        expected_pin_snippet = f"VM contract commit pin (`t81-vm/main`): `{baseline_commit}`"
 
     expected_tag = derive_contract_tag(host_abi_version)
     required_snippets = [
@@ -80,7 +83,7 @@ def main() -> None:
         f"Active tagged contract baseline: `{latest_tag}`" if latest_tag else "",
         expected_tag,
         f"VM contract version: `{contract_version}`",
-        f"VM contract commit pin (`t81-vm/main`): `{baseline_commit}`",
+        expected_pin_snippet,
         "`t81-lang` compatibility gate",
         "`t81-python` bridge and compatibility docs",
     ]
