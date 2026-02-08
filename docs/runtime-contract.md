@@ -8,6 +8,14 @@ This page tracks the runtime contract used by the migrated ecosystem boundary.
 - Contract artifact: `docs/contracts/vm-compatibility.json`
 - Contract tag baseline: `runtime-contract-v0.1`
 
+## Current Baseline Snapshot
+
+- VM contract version date: `2026-02-08`
+- Supported opcode count in contract: `39`
+- P0 parity families now represented in `t81-vm` contract:
+  - comparison ops (`Less`, `LessEqual`, `Greater`, `GreaterEqual`, `Equal`, `NotEqual`)
+  - numeric conversion ops (`I2F`, `F2I`, `I2Frac`, `Frac2I`)
+
 ## Downstream Consumers
 
 - `t81-lang` compatibility gate: `scripts/check-vm-compat.py`

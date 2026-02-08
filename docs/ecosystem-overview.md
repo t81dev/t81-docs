@@ -47,6 +47,11 @@ This page groups the `t81dev` repositories into working domains so contributors 
 - [`t81-docs`](https://github.com/t81dev/t81-docs): central docs hub.
 - Runtime boundary reference: [`docs/runtime-contract.md`](runtime-contract.md).
 
+## Migration State Note
+
+- VM parity P0 slice is landed in `t81-vm` (comparison + numeric conversion opcode families).
+- Cross-repo contract CI checks are currently green for `t81-vm`, `t81-lang`, `t81-python`, and `t81-docs`.
+
 ## Suggested Near-Term Expansion In `t81-docs`
 
 1. Add one canonical architecture page per domain above.

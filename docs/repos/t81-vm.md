@@ -12,6 +12,12 @@
 
 T81VM (HanoiVM): Deterministic, balanced-ternary native virtual machine. Executes TISC bytecode with full reproducibility, Axion safety guarantees, and overflow protection. Core runtime for the T81 ternary computing stack.
 
+## Migration State
+
+- Runtime contract source of truth: `t81-vm/docs/contracts/vm-compatibility.json`.
+- VM parity P0 slice landed (comparison + numeric conversion opcode families).
+- Canonical status page: [`../runtime-contract.md`](../runtime-contract.md).
+
 ## Signals
 
 - Stars: `0`
