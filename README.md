@@ -48,6 +48,7 @@ Validation and integrity checks:
 
 - `scripts/validate-repo-metadata.sh`
 - `scripts/check-doc-links.sh`
+- `scripts/check-runtime-contract-sync.py`
 
 Automation:
 

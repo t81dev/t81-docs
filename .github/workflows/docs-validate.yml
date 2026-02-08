@@ -13,6 +13,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Checkout t81-vm
+        uses: actions/checkout@v4
+        with:
+          repository: t81dev/t81-vm
+          path: t81-vm
+          ref: main
+
       - name: Ensure scripts executable
         run: chmod +x scripts/*.sh
 
@@ -21,3 +28,8 @@ jobs:
 
       - name: Validate markdown links
         run: ./scripts/check-doc-links.sh .
+
+      - name: Validate runtime contract page sync
+        run: python3 scripts/check-runtime-contract-sync.py
+        env:
+          T81_VM_DIR: ${{ github.workspace }}/t81-vm
