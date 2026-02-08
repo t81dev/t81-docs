@@ -8,6 +8,7 @@ This page tracks the runtime contract used by the migrated ecosystem boundary.
 - Contract artifact: `docs/contracts/vm-compatibility.json`
 - Active tagged contract baseline: `runtime-contract-v0.2`
 - `runtime-contract-v0.2` status: tagged and active
+- Host ABI-derived compatibility tag reference: `runtime-contract-v0.1`
 
 ## Current Baseline Snapshot
 
