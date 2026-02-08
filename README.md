@@ -7,6 +7,7 @@ Central documentation hub for the `t81dev` ecosystem.
 - `docs/ecosystem-overview.md`: repo map grouped by function and dependency flow.
 - `docs/repository-inventory.md`: complete inventory of all public repositories under `t81dev`.
 - `docs/repositories.md`: index of generated per-repository documentation pages.
+- `docs/runtime-contract.md`: runtime compatibility boundary for `t81-vm` consumers.
 - `docs/repos/`: one generated page per repository.
 - `docs/repos.json`: machine-readable repository metadata for automation.
 - `docs/maintenance.md`: sync and maintenance workflow.
