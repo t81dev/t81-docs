@@ -9,13 +9,6 @@ import subprocess
 from pathlib import Path
 
 
-def derive_contract_tag(abi_version: str) -> str:
-    parts = abi_version.split(".")
-    if len(parts) < 2 or not parts[0] or not parts[1]:
-        raise SystemExit(f"Unexpected host ABI version format: {abi_version!r}")
-    return f"runtime-contract-v{parts[0]}.{parts[1]}"
-
-
 def main() -> None:
     root = Path(__file__).resolve().parent.parent
     vm_dir = Path(os.environ.get("T81_VM_DIR", str((root / "../t81-vm").resolve())))
@@ -76,12 +69,11 @@ def main() -> None:
     if latest_tag:
         expected_pin_snippet = f"VM contract commit pin (`t81-vm/main`): `{baseline_commit}`"
 
-    expected_tag = derive_contract_tag(host_abi_version)
     required_snippets = [
         "Contract artifact: `docs/contracts/vm-compatibility.json`",
         "Repository: [`t81-vm`](https://github.com/t81dev/t81-vm)",
         f"Active tagged contract baseline: `{latest_tag}`" if latest_tag else "",
-        expected_tag,
+        f"Host ABI version: `{host_abi_version}`",
         f"VM contract version: `{contract_version}`",
         expected_pin_snippet,
         "Execution-mode parity evidence artifact: `build/mode-parity/parity-evidence.json`",
@@ -94,7 +86,7 @@ def main() -> None:
     if missing:
         raise SystemExit(f"docs/runtime-contract.md missing expected entries: {missing}")
 
-    print(f"runtime contract docs sync: ok (tag={expected_tag})")
+    print(f"runtime contract docs sync: ok (baseline={latest_tag or 'none'})")
 
 
 if __name__ == "__main__":

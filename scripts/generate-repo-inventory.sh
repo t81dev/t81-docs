@@ -30,6 +30,7 @@ curl -fsSL "https://api.github.com/users/${owner}/repos?per_page=100" > "$tmp_js
     ] |
     @tsv
   ' "$tmp_json" | while IFS=$'\t' read -r name language description; do
+    description="${description//t81dev\/duotroic-whitepaper/t81dev\/duotronic-whitepaper}"
     safe_desc="$(printf '%s' "$description" | tr '\n' ' ' | sed 's/|/\\|/g')"
     echo "| [\`${name}\`](https://github.com/${owner}/${name}) | [\`${name}\`](repos/${name}.md) | ${language} | ${safe_desc} |"
   done

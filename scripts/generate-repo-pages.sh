@@ -46,6 +46,7 @@ jq -r '.[] | @base64' "$repos_file" | while IFS= read -r row; do
   name="$(printf '%s' "$json" | jq -r '.name')"
   repo_url="$(printf '%s' "$json" | jq -r '.html_url')"
   desc="$(printf '%s' "$json" | jq -r '.description // "Description not set."')"
+  desc="${desc//t81dev\/duotroic-whitepaper/t81dev\/duotronic-whitepaper}"
   lang="$(printf '%s' "$json" | jq -r '.language // "-"')"
   fork="$(printf '%s' "$json" | jq -r '.fork')"
   archived="$(printf '%s' "$json" | jq -r '.archived')"
