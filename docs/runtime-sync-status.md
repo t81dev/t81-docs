@@ -1,12 +1,12 @@
 # Runtime Sync Report
 
-Snapshot date: 2026-02-08.
-Snapshot time (UTC): 2026-02-08T22:54:42Z.
+Snapshot date: 2026-02-16.
+Snapshot time (UTC): 2026-02-16T09:59:04Z.
 
 ## VM Baseline
 
 - Repository: `t81-vm`
-- Commit pin: `801709e40bef48ad12f7b028aa571665e26dbd02`
+- Commit pin: `4e2bba639d05249722db847563ae37991289ea52`
 - Contract version: `2026-02-08-v5`
 - ABI version: `0.1.0`
 - Parity evidence artifact: `build/mode-parity/parity-evidence.json`
@@ -14,7 +14,7 @@ Snapshot time (UTC): 2026-02-08T22:54:42Z.
 
 ## Health Summary
 
-- Overall status: `pass`
+- Overall status: `fail`
 
 ## Check Results
 
@@ -22,7 +22,7 @@ Snapshot time (UTC): 2026-02-08T22:54:42Z.
 | --- | --- |
 | t81-vm make check | pass |
 | t81-vm parity evidence artifact | pass |
-| t81-vm ecosystem canary | pass |
+| t81-vm ecosystem canary | fail |
 | t81-lang runtime compatibility | pass |
 | t81-lang compiler/runtime roundtrip | pass |
 | t81-python VM contract gate | pass |
