@@ -4,9 +4,9 @@
 - Status: `active`
 - Primary language: `C++`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T23:20:40Z`
+- Last push (UTC): `2026-02-15T21:10:25Z`
 - Created (UTC): `2025-11-21T22:25:00Z`
-- Last updated (UTC): `2026-02-08T23:20:11Z`
+- Last updated (UTC): `2026-02-15T16:54:35Z`
 
 ## Summary
 
@@ -15,8 +15,8 @@
 ## Signals
 
 - Stars: `1`
-- Forks: `0`
-- Open issues: `0`
+- Forks: `1`
+- Open issues: `2`
 - Topics: agi, ai-safety, arbitrary-precision, balanced-ternary, compiler, cpp, domain-specific-language, emulator, intermediate-representation, programmiing-language, systems-programming, t81, tensor-algebra, ternary-computing, virtual-machine
 - Homepage: https://t81dev.github.io/t81-foundation/
 
