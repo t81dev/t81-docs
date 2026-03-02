@@ -2,7 +2,7 @@
 
 Complete inventory of currently visible repositories under `https://github.com/t81dev`.
 
-Snapshot date: `2026-02-08`.
+Snapshot date: `2026-03-02`.
 
 ## Table
 
@@ -17,7 +17,7 @@ Snapshot date: `2026-02-08`.
 | [`t81-constraints`](https://github.com/t81dev/t81-constraints) | [`t81-constraints`](repos/t81-constraints.md) | - | Epistemic constraints, assumptions, and failure boundaries governing the t81dev research ecosystem. |
 | [`t81-docs`](https://github.com/t81dev/t81-docs) | [`t81-docs`](repos/t81-docs.md) | Shell | Central hub with architecture overviews, installation guides, API references, visual explainers of balanced ternary, migration paths from binary, and a unified "getting started" for the whole stack. |
 | [`t81-examples`](https://github.com/t81dev/t81-examples) | [`t81-examples`](repos/t81-examples.md) | Shell | Curated demo |
-| [`t81-foundation`](https://github.com/t81dev/t81-foundation) | [`t81-foundation`](repos/t81-foundation.md) | C++ |  T81 Ecosystem: a deterministic, ternary-native computing stack featuring base-81 data types, the TISC instruction set, T81VM, T81Lang, Axion safety/optimization, and the full recursive cognition tiers. |
+| [`t81-foundation`](https://github.com/t81dev/t81-foundation) | [`t81-foundation`](repos/t81-foundation.md) | C++ | T81 is a unified, deterministic, ternary-native computational architecture designed to surpass the limitations of binary computation.  |
 | [`t81-hardware`](https://github.com/t81dev/t81-hardware) | [`t81-hardware`](repos/t81-hardware.md) | SystemVerilog | Verilog/VHDL simulations, testbenches, FPGA targeting scripts, or even a software emulator of the ternary co-processor. |
 | [`t81-lang`](https://github.com/t81dev/t81-lang) | [`t81-lang`](repos/t81-lang.md) | C++ | T81Lang: the deterministic, balanced-ternary domain-specific language for the T81 ecosystem. Compiles to TISC IR and bytecode for HanoiVM execution with Axion safety guarantees. |
 | [`t81-python`](https://github.com/t81dev/t81-python) | [`t81-python`](repos/t81-python.md) | Python | High-level Python package on PyPI with clean APIs, type hints, and integration examples (e.g., with Hugging Face or llama.cpp Python bindings). |
