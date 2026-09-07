@@ -4,19 +4,19 @@
 - Status: `active`
 - Primary language: `C++`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T23:20:40Z`
+- Last push (UTC): `2026-08-25T20:23:52Z`
 - Created (UTC): `2025-11-21T22:25:00Z`
-- Last updated (UTC): `2026-02-08T23:20:11Z`
+- Last updated (UTC): `2026-04-09T01:28:24Z`
 
 ## Summary
 
- T81 Ecosystem: a deterministic, ternary-native computing stack featuring base-81 data types, the TISC instruction set, T81VM, T81Lang, Axion safety/optimization, and the full recursive cognition tiers.
+T81 is the first operating system built for governed, deterministic AI inference — ternary weights, bit-exact reproducibility, pre-side-effect policy enforcement, and immutable content-addressed storage.
 
 ## Signals
 
-- Stars: `1`
-- Forks: `0`
-- Open issues: `0`
+- Stars: `2`
+- Forks: `4`
+- Open issues: `11`
 - Topics: agi, ai-safety, arbitrary-precision, balanced-ternary, compiler, cpp, domain-specific-language, emulator, intermediate-representation, programmiing-language, systems-programming, t81, tensor-algebra, ternary-computing, virtual-machine
 - Homepage: https://t81dev.github.io/t81-foundation/
 

@@ -12,12 +12,32 @@
     "topics": [],
     "stargazers_count": 0,
     "watchers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "size": 5562,
+    "forks_count": 3,
+    "open_issues_count": 1,
+    "size": 5566,
     "created_at": "2026-01-19T14:38:19Z",
     "updated_at": "2026-01-25T19:20:13Z",
-    "pushed_at": "2026-01-25T19:20:09Z"
+    "pushed_at": "2026-03-02T14:31:23Z"
+  },
+  {
+    "name": "digital-archaeology",
+    "full_name": "t81dev/digital-archaeology",
+    "html_url": "https://github.com/t81dev/digital-archaeology",
+    "description": "A map of computing's unrealized possibilities—a place where historical artifacts are examined not just for what they were, but for what they might still become.",
+    "language": "Python",
+    "fork": false,
+    "archived": false,
+    "default_branch": "main",
+    "homepage": null,
+    "topics": [],
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "forks_count": 0,
+    "open_issues_count": 0,
+    "size": 16697,
+    "created_at": "2026-07-24T15:01:05Z",
+    "updated_at": "2026-08-29T19:23:23Z",
+    "pushed_at": "2026-08-29T19:23:12Z"
   },
   {
     "name": "duotronic-computing",
@@ -32,12 +52,12 @@
     "topics": [],
     "stargazers_count": 0,
     "watchers_count": 0,
-    "forks_count": 0,
+    "forks_count": 1,
     "open_issues_count": 0,
-    "size": 83,
+    "size": 104,
     "created_at": "2026-01-24T16:31:03Z",
-    "updated_at": "2026-01-25T23:38:05Z",
-    "pushed_at": "2026-01-25T23:38:02Z"
+    "updated_at": "2026-02-15T20:32:28Z",
+    "pushed_at": "2026-02-15T20:32:25Z"
   },
   {
     "name": "duotronic-thesis",
@@ -74,7 +94,7 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 101,
+    "size": 102,
     "created_at": "2026-01-24T14:53:53Z",
     "updated_at": "2026-02-08T23:32:03Z",
     "pushed_at": "2026-02-08T23:32:00Z"
@@ -94,10 +114,10 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 243113,
+    "size": 243188,
     "created_at": "2025-12-12T17:04:46Z",
-    "updated_at": "2026-02-08T16:30:18Z",
-    "pushed_at": "2026-02-08T16:29:27Z"
+    "updated_at": "2026-02-09T21:30:53Z",
+    "pushed_at": "2026-02-10T05:44:27Z"
   },
   {
     "name": "t81-benchmarks",
@@ -112,12 +132,12 @@
     "topics": [],
     "stargazers_count": 0,
     "watchers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "size": 43,
+    "forks_count": 2,
+    "open_issues_count": 7,
+    "size": 66,
     "created_at": "2026-02-08T13:57:14Z",
-    "updated_at": "2026-02-08T23:35:57Z",
-    "pushed_at": "2026-02-08T23:35:54Z"
+    "updated_at": "2026-09-01T17:59:19Z",
+    "pushed_at": "2026-09-01T17:50:37Z"
   },
   {
     "name": "t81-constraints",
@@ -134,7 +154,7 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 11,
+    "size": 12,
     "created_at": "2026-02-08T13:38:05Z",
     "updated_at": "2026-02-08T23:31:15Z",
     "pushed_at": "2026-02-08T23:31:11Z"
@@ -152,12 +172,12 @@
     "topics": [],
     "stargazers_count": 0,
     "watchers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "size": 72,
+    "forks_count": 2,
+    "open_issues_count": 1,
+    "size": 46,
     "created_at": "2026-02-08T13:52:45Z",
-    "updated_at": "2026-02-08T23:19:04Z",
-    "pushed_at": "2026-02-08T23:19:01Z"
+    "updated_at": "2026-02-09T01:58:00Z",
+    "pushed_at": "2026-09-07T13:35:29Z"
   },
   {
     "name": "t81-examples",
@@ -173,17 +193,17 @@
     "stargazers_count": 0,
     "watchers_count": 0,
     "forks_count": 0,
-    "open_issues_count": 0,
-    "size": 5,
+    "open_issues_count": 1,
+    "size": 13,
     "created_at": "2026-02-08T13:56:15Z",
-    "updated_at": "2026-02-08T22:50:16Z",
-    "pushed_at": "2026-02-08T22:50:12Z"
+    "updated_at": "2026-02-09T01:58:02Z",
+    "pushed_at": "2026-02-09T01:49:25Z"
   },
   {
     "name": "t81-foundation",
     "full_name": "t81dev/t81-foundation",
     "html_url": "https://github.com/t81dev/t81-foundation",
-    "description": " T81 Ecosystem: a deterministic, ternary-native computing stack featuring base-81 data types, the TISC instruction set, T81VM, T81Lang, Axion safety/optimization, and the full recursive cognition tiers.",
+    "description": "T81 is the first operating system built for governed, deterministic AI inference — ternary weights, bit-exact reproducibility, pre-side-effect policy enforcement, and immutable content-addressed storage.",
     "language": "C++",
     "fork": false,
     "archived": false,
@@ -206,14 +226,14 @@
       "ternary-computing",
       "virtual-machine"
     ],
-    "stargazers_count": 1,
-    "watchers_count": 1,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "size": 81864,
+    "stargazers_count": 2,
+    "watchers_count": 2,
+    "forks_count": 4,
+    "open_issues_count": 11,
+    "size": 131517,
     "created_at": "2025-11-21T22:25:00Z",
-    "updated_at": "2026-02-08T23:20:11Z",
-    "pushed_at": "2026-02-08T23:20:40Z"
+    "updated_at": "2026-04-09T01:28:24Z",
+    "pushed_at": "2026-08-25T20:23:52Z"
   },
   {
     "name": "t81-hardware",
@@ -226,14 +246,14 @@
     "default_branch": "main",
     "homepage": null,
     "topics": [],
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "forks_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "forks_count": 2,
     "open_issues_count": 0,
-    "size": 24,
+    "size": 99,
     "created_at": "2026-02-08T13:59:19Z",
-    "updated_at": "2026-02-08T23:50:58Z",
-    "pushed_at": "2026-02-08T23:50:55Z"
+    "updated_at": "2026-09-07T12:39:57Z",
+    "pushed_at": "2026-09-07T12:39:23Z"
   },
   {
     "name": "t81-lang",
@@ -250,10 +270,10 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 150,
+    "size": 199,
     "created_at": "2026-02-08T15:42:17Z",
-    "updated_at": "2026-02-08T22:50:16Z",
-    "pushed_at": "2026-02-08T22:50:12Z"
+    "updated_at": "2026-02-09T20:18:00Z",
+    "pushed_at": "2026-02-09T20:17:56Z"
   },
   {
     "name": "t81-python",
@@ -286,14 +306,14 @@
     "default_branch": "main",
     "homepage": null,
     "topics": [],
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "forks_count": 0,
-    "open_issues_count": 0,
-    "size": 127,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "forks_count": 2,
+    "open_issues_count": 74,
+    "size": 261,
     "created_at": "2026-02-08T14:00:28Z",
-    "updated_at": "2026-02-08T23:56:56Z",
-    "pushed_at": "2026-02-08T23:56:52Z"
+    "updated_at": "2026-09-07T13:46:10Z",
+    "pushed_at": "2026-09-07T13:45:46Z"
   },
   {
     "name": "t81-vm",
@@ -310,10 +330,10 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 147,
+    "size": 156,
     "created_at": "2026-02-08T16:05:48Z",
-    "updated_at": "2026-02-08T22:50:05Z",
-    "pushed_at": "2026-02-08T22:50:01Z"
+    "updated_at": "2026-02-09T01:49:20Z",
+    "pushed_at": "2026-02-09T01:49:17Z"
   },
   {
     "name": "t81lib",
@@ -344,9 +364,9 @@
     ],
     "stargazers_count": 1,
     "watchers_count": 1,
-    "forks_count": 0,
+    "forks_count": 1,
     "open_issues_count": 0,
-    "size": 1262,
+    "size": 1274,
     "created_at": "2025-12-09T22:01:20Z",
     "updated_at": "2026-02-08T23:28:26Z",
     "pushed_at": "2026-02-08T23:28:23Z"
@@ -369,13 +389,13 @@
       "llm-quantization",
       "ternary-logic"
     ],
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "forks_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "forks_count": 1,
     "open_issues_count": 0,
     "size": 42,
     "created_at": "2025-11-24T23:44:47Z",
-    "updated_at": "2025-11-29T17:18:30Z",
+    "updated_at": "2026-03-28T08:37:09Z",
     "pushed_at": "2025-11-29T17:18:26Z"
   },
   {
@@ -393,10 +413,10 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 94,
+    "size": 95,
     "created_at": "2026-01-23T14:28:48Z",
-    "updated_at": "2026-01-23T16:23:56Z",
-    "pushed_at": "2026-01-23T16:23:53Z"
+    "updated_at": "2026-02-16T14:00:38Z",
+    "pushed_at": "2026-02-16T14:00:25Z"
   },
   {
     "name": "ternary-fabric",
@@ -423,14 +443,14 @@
       "ternary-computing",
       "verilog"
     ],
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "forks_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "forks_count": 1,
     "open_issues_count": 0,
-    "size": 1109,
+    "size": 1159,
     "created_at": "2026-01-26T16:26:35Z",
-    "updated_at": "2026-02-08T23:50:58Z",
-    "pushed_at": "2026-02-08T23:50:55Z"
+    "updated_at": "2026-08-17T12:55:25Z",
+    "pushed_at": "2026-02-16T02:14:44Z"
   },
   {
     "name": "ternary-memory-research",
@@ -447,10 +467,10 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 1029,
+    "size": 1039,
     "created_at": "2026-01-30T00:57:54Z",
-    "updated_at": "2026-02-08T23:50:58Z",
-    "pushed_at": "2026-02-08T23:50:55Z"
+    "updated_at": "2026-02-15T19:54:18Z",
+    "pushed_at": "2026-02-15T19:54:18Z"
   },
   {
     "name": "ternary-pager",
@@ -495,13 +515,13 @@
       "t81",
       "ternary"
     ],
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "forks_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "forks_count": 1,
     "open_issues_count": 0,
     "size": 80,
     "created_at": "2025-11-25T02:46:54Z",
-    "updated_at": "2026-02-08T22:50:23Z",
+    "updated_at": "2026-03-04T02:40:36Z",
     "pushed_at": "2026-02-08T22:50:20Z"
   },
   {
@@ -528,7 +548,7 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 306,
+    "size": 308,
     "created_at": "2026-01-20T15:50:34Z",
     "updated_at": "2026-02-08T23:30:02Z",
     "pushed_at": "2026-02-08T23:29:59Z"
@@ -546,12 +566,12 @@
     "topics": [],
     "stargazers_count": 0,
     "watchers_count": 0,
-    "forks_count": 0,
+    "forks_count": 1,
     "open_issues_count": 0,
-    "size": 14,
+    "size": 16,
     "created_at": "2025-11-25T00:19:30Z",
-    "updated_at": "2026-02-08T23:07:23Z",
-    "pushed_at": "2026-02-08T23:07:20Z"
+    "updated_at": "2026-02-09T00:24:41Z",
+    "pushed_at": "2026-02-09T00:24:38Z"
   },
   {
     "name": "trinity-decrypt",
@@ -568,10 +588,10 @@
     "watchers_count": 0,
     "forks_count": 0,
     "open_issues_count": 0,
-    "size": 7,
+    "size": 9,
     "created_at": "2025-11-25T00:33:23Z",
-    "updated_at": "2026-02-08T23:07:24Z",
-    "pushed_at": "2026-02-08T23:07:20Z"
+    "updated_at": "2026-02-09T00:24:42Z",
+    "pushed_at": "2026-02-09T00:24:38Z"
   },
   {
     "name": "trinity-pow",
@@ -590,11 +610,11 @@
     ],
     "stargazers_count": 0,
     "watchers_count": 0,
-    "forks_count": 0,
+    "forks_count": 1,
     "open_issues_count": 0,
-    "size": 12,
+    "size": 15,
     "created_at": "2025-11-25T00:41:36Z",
-    "updated_at": "2026-02-08T23:07:24Z",
-    "pushed_at": "2026-02-08T23:07:20Z"
+    "updated_at": "2026-02-09T00:24:42Z",
+    "pushed_at": "2026-02-09T00:24:38Z"
   }
 ]

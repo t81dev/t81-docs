@@ -4,9 +4,9 @@
 - Status: `active`
 - Primary language: `SystemVerilog`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T23:50:55Z`
+- Last push (UTC): `2026-09-07T12:39:23Z`
 - Created (UTC): `2026-02-08T13:59:19Z`
-- Last updated (UTC): `2026-02-08T23:50:58Z`
+- Last updated (UTC): `2026-09-07T12:39:57Z`
 
 ## Summary
 
@@ -14,8 +14,8 @@ Verilog/VHDL simulations, testbenches, FPGA targeting scripts, or even a softwar
 
 ## Signals
 
-- Stars: `0`
-- Forks: `0`
+- Stars: `1`
+- Forks: `2`
 - Open issues: `0`
 - Topics: -
 

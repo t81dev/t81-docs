@@ -15,7 +15,7 @@ t81lib – Balanced-ternary quantization and arithmetic core for AI and quant wo
 ## Signals
 
 - Stars: `1`
-- Forks: `0`
+- Forks: `1`
 - Open issues: `0`
 - Topics: ai, arbitrary-precision, balanced-ternary, big-integer, cpp20, high-assurance, low-level, no-undefined-behavior, performance, quant, quantization, ternary, ternary-arithmetic, ternary-computing, ternary-logic
 - Homepage: https://github.com/t81dev/t81lib
