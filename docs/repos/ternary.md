@@ -6,7 +6,7 @@
 - Default branch: `main`
 - Last push (UTC): `2025-11-29T17:18:26Z`
 - Created (UTC): `2025-11-24T23:44:47Z`
-- Last updated (UTC): `2025-11-29T17:18:30Z`
+- Last updated (UTC): `2026-03-28T08:37:09Z`
 
 ## Summary
 
@@ -14,8 +14,8 @@ Ternary Quantization for LLMs: Implement balanced ternary (T3_K) weights for 2.6
 
 ## Signals
 
-- Stars: `0`
-- Forks: `0`
+- Stars: `1`
+- Forks: `1`
 - Open issues: `0`
 - Topics: ai-efficiency, balanced-ternary, gguf, llama-cpp, llm-quantization, ternary-logic
 
