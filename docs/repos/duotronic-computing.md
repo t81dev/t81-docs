@@ -4,9 +4,9 @@
 - Status: `active`
 - Primary language: `C++`
 - Default branch: `main`
-- Last push (UTC): `2026-01-25T23:38:02Z`
+- Last push (UTC): `2026-02-15T20:32:25Z`
 - Created (UTC): `2026-01-24T16:31:03Z`
-- Last updated (UTC): `2026-01-25T23:38:05Z`
+- Last updated (UTC): `2026-02-15T20:32:28Z`
 
 ## Summary
 
@@ -15,7 +15,7 @@ Interpretive and contextual material exploring duotronic computing and the Terna
 ## Signals
 
 - Stars: `0`
-- Forks: `0`
+- Forks: `1`
 - Open issues: `0`
 - Topics: -
 
