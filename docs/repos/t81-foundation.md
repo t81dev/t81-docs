@@ -4,19 +4,19 @@
 - Status: `active`
 - Primary language: `C++`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T23:20:40Z`
+- Last push (UTC): `2026-11-02T19:14:00Z`
 - Created (UTC): `2025-11-21T22:25:00Z`
-- Last updated (UTC): `2026-02-08T23:20:11Z`
+- Last updated (UTC): `2026-11-02T19:14:05Z`
 
 ## Summary
 
- T81 Ecosystem: a deterministic, ternary-native computing stack featuring base-81 data types, the TISC instruction set, T81VM, T81Lang, Axion safety/optimization, and the full recursive cognition tiers.
+Can alternative state representations and transition dynamics—including deterministic, stochastic, and hybrid systems—support computational architectures with capabilities or efficiency advantages not obtained as effectively through conventional instruction-oriented execution?
 
 ## Signals
 
-- Stars: `1`
-- Forks: `0`
-- Open issues: `0`
+- Stars: `4`
+- Forks: `7`
+- Open issues: `71`
 - Topics: agi, ai-safety, arbitrary-precision, balanced-ternary, compiler, cpp, domain-specific-language, emulator, intermediate-representation, programmiing-language, systems-programming, t81, tensor-algebra, ternary-computing, virtual-machine
 - Homepage: https://t81dev.github.io/t81-foundation/
 

@@ -1,12 +1,12 @@
 # trinity-decrypt
 
 - Repository: [`trinity-decrypt`](https://github.com/t81dev/trinity-decrypt)
-- Status: `active`
+- Status: `archived`
 - Primary language: `C`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T23:07:20Z`
+- Last push (UTC): `2026-02-09T00:24:38Z`
 - Created (UTC): `2025-11-25T00:33:23Z`
-- Last updated (UTC): `2026-02-08T23:07:24Z`
+- Last updated (UTC): `2026-10-08T19:15:27Z`
 
 ## Summary
 

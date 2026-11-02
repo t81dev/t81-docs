@@ -4,9 +4,9 @@
 - Status: `active`
 - Primary language: `Shell`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T23:35:54Z`
+- Last push (UTC): `2026-11-01T18:57:53Z`
 - Created (UTC): `2026-02-08T13:57:14Z`
-- Last updated (UTC): `2026-02-08T23:35:57Z`
+- Last updated (UTC): `2026-11-01T18:57:57Z`
 
 ## Summary
 
@@ -15,8 +15,8 @@ Rigorous comparisons: inference speed/memory/accuracy of T3_K vs Q4/Q5, simulate
 ## Signals
 
 - Stars: `0`
-- Forks: `0`
-- Open issues: `0`
+- Forks: `2`
+- Open issues: `9`
 - Topics: -
 
 ## Known Dependencies

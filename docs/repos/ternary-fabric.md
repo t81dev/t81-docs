@@ -4,9 +4,9 @@
 - Status: `active`
 - Primary language: `C`
 - Default branch: `main`
-- Last push (UTC): `2026-02-08T23:50:55Z`
+- Last push (UTC): `2026-02-16T02:14:44Z`
 - Created (UTC): `2026-01-26T16:26:35Z`
-- Last updated (UTC): `2026-02-08T23:50:58Z`
+- Last updated (UTC): `2026-08-17T12:55:25Z`
 
 ## Summary
 
@@ -14,8 +14,8 @@ Ternary Fabric is a ternary-native memory and interconnect co-processor designed
 
 ## Signals
 
-- Stars: `0`
-- Forks: `0`
+- Stars: `1`
+- Forks: `1`
 - Open issues: `0`
 - Topics: ai-acceleration, balanced-ternary, computer-architecture, experimental-architecture, fpga, hardware-accelerator, memory-fabric, quantized-neural-networks, research-project, rtl, simd, ternary-computing, verilog
 - Homepage: https://github.com/t81dev/ternary-fabric/tree/main
